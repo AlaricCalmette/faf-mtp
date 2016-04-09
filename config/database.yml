@@ -5,17 +5,17 @@
 #   gem 'sqlite3'
 #
 default: &default
-   adapter: mysql2
+   adapter: postgresql
    encoding: utf8
 
 
 development:
   <<: *default
-  database: faf_mtp_dev
+  database: postgre
   username: root
-  password: wearecloud
+  password: Kinnia&ç$
   host: 127.0.0.1
-  port: 3306
+  port: 5432
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -30,9 +30,9 @@ test:
 
 production:
   <<: *default
-  database: iqo6adhbjwi1xxwr
-  host: ivgz2rnl5rh7sphb.chr7pe7iynqr.eu-west-1.rds.amazonaws.com
-  username: jaujppey2mrijh8m
-  password: nhukbj6i5a337phx
-  port: 3306
+  database: dc95fn5kgafkhp
+  host: ec2-54-217-231-152.eu-west-1.compute.amazonaws.com
+  username: ldeixailoievhi
+  password: AleWGKwLQzg70U09pavvE8uaIT
+  port: 5432
 
