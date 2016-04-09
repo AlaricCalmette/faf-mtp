@@ -7,7 +7,7 @@ angular.module('fafMtp', ['ui.router', 'templates'])
 			$stateProvider
 				.state('home', {
 					url: '/home',
-					templateUrl: 'home/_home.html.erb',
+					templateUrl: 'home/_home.html',
 					controller: 'MainController'
 					/*resolve: {
 						postPromise: ['posts', function(posts){
