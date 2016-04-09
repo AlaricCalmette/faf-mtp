@@ -1,0 +1,41 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require bootstrap/dist/css/bootstrap
+ *= require_tree .
+ *= require_self
+ */
+
+.home-header {
+    background: url('/assets/faf-header.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-header > h1 {
+    color: white;
+    margin-top: 0;
+    position: relative;
+    top: calc(50vh - 215px);
+}
+
+.home-header > .scroll-down {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: calc(100vh - 60px);
+}
+
+.no-margin {
+    margin: 0;
+}
