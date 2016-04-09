@@ -1,11 +1,10 @@
-/*
+
 angular.module('fafMtp')
 	.controller('MainController', [
 		'$scope',
-		'posts',
-		function($scope, posts){
+		function($scope){
 			$scope.test = 'Hello world!';
-			$scope.posts = posts.posts;
+			/*$scope.posts = posts.posts;
 			$scope.posts = [
 				{title: 'post 1', upvotes: 5},
 				{title: 'post 2', upvotes: 2},
@@ -26,6 +25,6 @@ angular.module('fafMtp')
 
 			$scope.incrementUpvotes = function(post) {
 				posts.upvote(post);
-			};
+			};*/
 
-		}]);*/
+		}]);
