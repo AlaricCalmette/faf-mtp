@@ -5,7 +5,7 @@ angular.module('fafMtp', ['ui.router', 'templates'])
 		function($stateProvider, $urlRouterProvider) {
 
 			$stateProvider
-				.state('home', {
+				/*.state('home', {
 					url: '/home',
 					templateUrl: 'home/_home.html',
 					controller: 'MainController',
@@ -14,7 +14,7 @@ angular.module('fafMtp', ['ui.router', 'templates'])
 							return posts.getAll();
 						}]
 					}
-				})
+				})*/
 				.state('posts', {
 					url: '/posts/{id}',
 					templateUrl: 'posts/_posts.html',

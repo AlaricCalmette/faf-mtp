@@ -1,3 +1,4 @@
+/*
 angular.module('fafMtp')
 	.controller('MainController', [
 		'$scope',
@@ -27,4 +28,4 @@ angular.module('fafMtp')
 				posts.upvote(post);
 			};
 
-		}]);
+		}]);*/
